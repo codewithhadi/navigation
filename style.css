@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(229, 238, 244);
+    font-family: sans-serif;
+}
+.container{
+    width: 95%;
+    height: 60px;
+    background-color: rgb(21, 60, 144);
+    margin-top: 30px;
+    border-radius: 15px;
+    margin-left: 2.5%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.h3{
+    color: #fff;
+    padding-left: 20px;
+}
+nav ul li a button{
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(21, 60, 144);
+    outline: none;
+    border: none;
+}
+nav ul li a button:hover{
+    background-color: rgb(0, 140, 255);
+    height: 40px;
+    width: 60px;
+}
+.right{
+    height: 780px;
+    width: 50%;
+    margin-left: 0;
+    float: left;
+}
+.left{
+    height: 780px;
+    width: 50%;
+    margin-left: 0;
+    float: right;
+}
+.right h1{
+    font-size: 60px;
+    color: rgb(21, 60, 144);
+    padding-left: 15%;
+    padding-top: 20%;
+}
+.right h1 span{
+    color: rgb(0, 140, 255);
+}
+.main{
+    height: 600px;
+    width: 450px;
+    background-color: rgb(21, 60, 144);
+    border-radius: 20px;
+}
+#hu{
+    color: #fff;
+    padding-left: 20px;
+  padding-top: 20px;
+}
+#j{
+    display: block;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(21, 60, 144);
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+#j:hover{
+    background-color: rgb(0, 140, 255);
+    cursor: pointer;
+}
+#m:hover{
+    background-color: rgb(0, 140, 255);
+    cursor: pointer;
+}
+#z:hover{
+    background-color: rgb(0, 140, 255);
+    cursor: pointer;
+}
+#f:hover{
+    background-color: rgb(0, 140, 255);
+    cursor: pointer;
+}
+#b:hover{
+    background-color: rgb(0, 140, 255);
+    cursor: pointer;
+}
+#m{
+    display: block;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(21, 60, 144);
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+#z{
+    display: block;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(21, 60, 144);
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+#f{
+    display: block;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(21, 60, 144);
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+#b{
+    display: block;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(21, 60, 144);
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
